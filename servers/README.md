@@ -29,7 +29,19 @@
 ## Project setup
 
 ```bash
-$ npm install
+first create two folder servers and client 
+cd servers then 
+$ npm i -g @nestjs/cli
+check version of nest js 
+$ nest --version 
+then run 
+$ nest new 
+[then your project name] my case
+gateway
+hit enter and then cd gateway 
+$ nest g app 
+then app name users hit enter
+then move all folder to server then delete gateway empty folder.
 ```
 
 ## Compile and run the project
